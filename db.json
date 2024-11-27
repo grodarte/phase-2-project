@@ -1,16 +1,16 @@
 {
-    "toys": [
+    "gifts": [
       {
         "id": 1,
-        "name": "Woody",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-        "likes": 8
-      },
-      {
-        "id": 2,
-        "name": "Buzz Lightyear",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "likes": 14
+        "name": "Women's Tazz Slipper",
+        "brand": "UGG",
+        "image": "https://dms.deckers.com/ugg/image/upload/f_auto,q_40,dpr_2/w_1650/v1710440079/catalog/images/transparent/1122553-ALP_1.png?_s=RAABAB0",
+        "url": "https://www.ugg.com/women-slippers/tazz/1122553.html?dwvar_1122553_color=BTOL&utm_source=rak_MyRegistry.com&utm_medium=aff&ranMID=43728&ranEAID=U9IWU2PurxM&ranSiteID=U9IWU2PurxM-_ITZTT87rMjCje0JiWF1VQ",
+        "price": 130.00,
+        "qty": 1,
+        "size": "8",
+        "color": "Chestnut",
+        "purchased": false
       }
     ]
   }
