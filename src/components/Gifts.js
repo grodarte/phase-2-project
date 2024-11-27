@@ -11,7 +11,7 @@ function Gifts(){
     return (
         <main>
             <h1>Gift Wishlist</h1>
-            {/* render gifts */}
+            {giftElements}
         </main>
     )
 }
