@@ -1,6 +1,7 @@
-
+import { useOutletContext } from "react-router-dom"
 
 function NewGiftForm(){
+
     return (
         <main>
             <h1>New Gift Form</h1>
