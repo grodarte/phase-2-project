@@ -46,6 +46,19 @@
   font-family: Arial, sans-serif;
 }
 
+.my-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff4d4d; /* Christmas red */
+  text-align: center; /* Center the title */
+  margin-bottom: 1.5rem;
+  font-family: 'Arial', sans-serif; /* Simple and clean font */
+  letter-spacing: 2px; /* Add spacing between letters for a fun effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Festive styling for form title */
 .form-title {
   font-size: 2rem;

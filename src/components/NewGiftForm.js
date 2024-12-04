@@ -17,10 +17,14 @@ const blankGiftForm = {
 function NewGiftForm(){
     const [newGiftForm, setNewGiftForm] = useState(blankGiftForm)
 
+    function handleSubmit(e){
+        e.preventDefault()
+    }
+
     return (
         <main className="form-container">
             <h1 className="form-title">All I Want For Christmas Is... 🎁</h1>
-            <form action="submit" className="form">
+            <form action="submit" className="form" onSubmit={handleSubmit}>
                 <input type="text" className="form-input" placeholder="Gift Title" name="name"/>
                 <input type="text" className="form-input" placeholder="Brand" name="brand"/>
                 <input type="url" className="form-input" placeholder="Shop Gift URL" name="url"/>

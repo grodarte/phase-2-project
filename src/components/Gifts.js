@@ -10,7 +10,7 @@ function Gifts(){
 
     return (
         <main>
-            <h1>Gift Wishlist</h1>
+            <h1 className="my-title">🎁 My Christmas Wishlist 🎁</h1>
             {giftElements}
         </main>
     )
