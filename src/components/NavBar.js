@@ -4,6 +4,7 @@ import "./NavBar.css"
 function NavBar(){
     return (
         <nav>
+            <div className="navbar-title">My Christmas Wishlist</div>
             <NavLink
                 to="/"
                 className="nav-link"

@@ -36,3 +36,198 @@
     transform: rotate(360deg);
   }
 }
+
+/* Container styles */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Festive styling for form title */
+.form-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff4d4d; /* Christmas red */
+  text-align: center; /* Center the title */
+  margin-bottom: 1.5rem;
+  font-family: 'Arial', sans-serif; /* Simple and clean font */
+  letter-spacing: 2px; /* Add spacing between letters for a fun effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add a snowflake or gift icon before the title */
+.form-title::before {
+  content: "❄️"; /* Snowflake icon */
+  margin-right: 10px;
+  font-size: 1.8rem; /* Larger icon */
+}
+
+/* Responsive Design for Form Title */
+@media (max-width: 768px) {
+  .form-title {
+    font-size: 1.6rem; /* Smaller title font size for mobile */
+  }
+}
+
+/* Form styles */
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Input styles */
+.form-input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+.notes-input {
+  grid-column: 1 / -1;
+}
+
+/* Text area styles */
+.form-textarea {
+  grid-column: 1 / -1; /* Span across the entire width */
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  resize: vertical; /* Allow resizing vertically */
+  min-height: 100px; /* Default height */
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.form-textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+/* Button styles */
+.form-button {
+  grid-column: 1 / -1;
+  padding: 0.75rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #218838;
+}
+
+/* Gift card container */
+.gift-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff; /* White background for cards */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  padding: 1.5rem;
+  margin: 1rem;
+  max-width: 300px; /* Limit card size */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the card */
+.gift-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Gift image styling */
+.gift-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem; /* Add spacing between image and text */
+}
+
+/* Gift details section */
+.gift-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Text styling for gift details */
+.gift-details h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333333; /* Dark color for the name */
+  margin: 0.5rem 0;
+}
+
+.gift-info {
+  font-size: 1rem;
+  color: #555555; /* Lighter gray color for size/color */
+  margin: 0.25rem 0;
+}
+
+.gift-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #28a745; /* Christmas green for price */
+  margin: 0.5rem 0;
+}
+
+.gift-stats {
+  font-size: 1rem;
+  color: #777777;
+  margin-top: 0.5rem;
+}
+
+/* Button styling */
+.buy-button {
+  background-color: #ff4d4d; /* Christmas red */
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+/* Button hover effect */
+.buy-button:hover {
+  background-color: #ff3333; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  .gift-card {
+    max-width: 250px;
+  }
+}

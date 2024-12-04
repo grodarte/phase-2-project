@@ -1,4 +1,4 @@
-.nav-link{
+/* .nav-link{
     display: inline-block;
     box-sizing: border-box;
     width: 120px;
@@ -13,4 +13,64 @@
   
 .active {
     color: red;
-}
+} */
+
+/* General NavBar styling */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ff4d4d; /* Christmas red background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the title with the snowflake icon */
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-right: auto; /* Push the title to the left */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Christmas tree and snowflake icon */
+  .navbar-title::before {
+    content: "🎄"; /* Snowflake emoji */
+    margin-right: 10px;
+    font-size: 1.8rem; /* Larger icon */
+  }
+  
+  /* Styling the NavLink */
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0 1.5rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Hover and Active State */
+  .nav-link:hover {
+    background-color: #28a745; /* Christmas green on hover */
+    color: white;
+  }
+  
+  .nav-link.active {
+    background-color: #218838; /* Slightly darker green for active */
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+    .nav-link {
+      margin: 0.5rem 0;
+    }
+  }
