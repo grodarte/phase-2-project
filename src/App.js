@@ -14,6 +14,10 @@ function App() {
 
   function handleAddNewGift(newGift){
     console.log(newGift)
+    setGifts([
+      ...gifts,
+      newGift
+    ])
   }
 
   return (
