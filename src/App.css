@@ -154,6 +154,15 @@
   background-color: #218838;
 }
 
+/* Container for the gift cards */
+.wishlist-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column size */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+  justify-items: center; /* Centers items horizontally */
+}
+
 /* Gift card container */
 .gift-card {
   display: flex;

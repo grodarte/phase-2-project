@@ -19,10 +19,36 @@
       "brand": "Vuori",
       "image": "https://cdn.shopify.com/s/files/1/0022/4008/6074/files/VW541DSA_unknown_opening_season_W_ECOMM_jackets_FRONT_2.jpg?v=1722971854&width=600&height=750&crop=center",
       "url": "https://vuoriclothing.com/products/womens-sycamore-shirt-jacket-dark-salt?utm_source=awin&utm_medium=affiliate&utm_campaign=141102&sv1=affiliate&sv_campaign_id=141102&awc=33371_1735421439_119b9e5446745dde8076b740627df150",
-      "price": "168",
-      "qty": "1",
+      "price": 168,
+      "qty": 1,
       "size": "Small",
       "color": "Dark Salt",
+      "notes": "",
+      "purchased": false
+    },
+    {
+      "id": "6394",
+      "name": "327",
+      "brand": "New Balance",
+      "image": "https://nb.scene7.com/is/image/NB/ws327kg_nb_02_i?$pdpflexf2$&qlt=80&fmt=webp&wid=440&hei=440",
+      "url": "https://www.newbalance.com/pd/327/WS327V1-47435.html?dwvar_WS327V1-47435_style=WS327KG&irclickid=SAhxKHWHSxyKUjqU6jzDhQZeUkCSB9zxrTo0TY0&irgwc=1&utm_source=Impact&utm_medium=Affiliate&utm_campaign=Skimbit%20Ltd.&utm_term=1377658&Ecid=af_Skimbit%20Ltd.",
+      "price": 74.99,
+      "qty": 1,
+      "size": "8.5",
+      "color": "Sea Salt with Sandstone",
+      "notes": "",
+      "purchased": false
+    },
+    {
+      "id": "ebe2",
+      "name": "AllTheFeels™ Legging",
+      "brand": "Vuori",
+      "image": "https://cdn.shopify.com/s/files/1/0022/4008/6074/files/VW4018JAV_SP24_W_ECOMM_PANTS_FRONT_ALT_BOTTOMS_4.jpg?v=1701903390&width=600&height=750&crop=center",
+      "url": "https://vuoriclothing.com/products/womens-vuori-allthefeels-legging-java?queryId=c54491bf80b8f80e7ad3ecbfc3b9fc37&collection=womens-leggings&utm_source=awin&utm_medium=affiliate&utm_campaign=141102&sv1=affiliate&sv_campaign_id=141102&awc=33371_1735422239_64343744f9d7de11de2805aa91787ad9",
+      "price": 98,
+      "qty": 1,
+      "size": "Small",
+      "color": "Java",
       "notes": "",
       "purchased": false
     }
