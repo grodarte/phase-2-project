@@ -2,7 +2,7 @@ import { useOutletContext } from "react-router-dom"
 import Gift from "./Gift"
 
 function Gifts(){
-    const gifts = useOutletContext()
+    const { gifts } = useOutletContext()
 
     console.log(gifts)
 

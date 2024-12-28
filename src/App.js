@@ -12,12 +12,16 @@ function App() {
     .then(giftData=>setGifts(giftData))
   }, [])
 
+  function handleAddNewGift(newGift){
+    console.log(newGift)
+  }
+
   return (
     <div className="App">
       <header>
           <NavBar/>
       </header>
-      <Outlet context={gifts}/>
+      <Outlet context={{gifts: gifts, onAddNewGift: handleAddNewGift}}/>
     </div>
   );
 }

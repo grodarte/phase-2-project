@@ -15,11 +15,12 @@ const blankGiftForm = {
 }
 
 function NewGiftForm(){
+    const { onAddNewGift } = useOutletContext()
     const [newGiftForm, setNewGiftForm] = useState(blankGiftForm)
 
     function handleSubmit(e){
         e.preventDefault()
-        
+
         fetch(`http://localhost:3000/gifts`, {
             method: "POST",
             headers: {
@@ -29,7 +30,7 @@ function NewGiftForm(){
         })
         .then(r=>r.json())
         .then(newGiftData=>{
-            console.log(newGiftData)
+            onAddNewGift(newGiftData)
             setNewGiftForm(blankGiftForm)
         })
     }
