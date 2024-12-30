@@ -77,6 +77,58 @@
       "color": "",
       "notes": "",
       "purchased": false
+    },
+    {
+      "id": "e82d",
+      "name": "327",
+      "brand": "New Balance",
+      "image": "https://stmr.blob.core.windows.net/users/ids4600k/4600444/GiftImages/ae7c6a5a-e9e7-4853-8d44-b71f8ad686d9_Large.jpg",
+      "url": "https://www.newbalance.com/pd/327/WS327V1-41747-PMG-NA.html?dwvar_WS327V1-41747-PMG-NA_style=WS327FE&irclickid=SAhxKHWHSxyKUjqU6jzDhQZeUkCSoGWhrTo0TY0&irgwc=1&utm_source=Impact&utm_medium=Affiliate&utm_campaign=Skimbit%20Ltd.&utm_term=1377658&Ecid=af_Skimbit%20Ltd.#dwvar_WS327V1-41747-PMG-NA_style=WS327BL&dwvar_WS327V1-41747-PMG-NA_width=B&pid=WS327V1-41747-PMG-NA&quantity=1",
+      "price": 99.99,
+      "qty": 1,
+      "size": "8.5",
+      "color": "Black with White and Mineral Red",
+      "notes": "",
+      "purchased": false
+    },
+    {
+      "id": "1b0b",
+      "name": "Wrist Bands for Washing Face",
+      "brand": "Amazon",
+      "image": "https://m.media-amazon.com/images/I/716L8clyAVL._AC_SY355_.jpg",
+      "url": "https://www.amazon.com/Washband-Microfiber-Wristbands-Absorbent-Sweatband/dp/B08X44BTFB?tag=myregistrycom-20&th=1",
+      "price": 8.99,
+      "qty": 1,
+      "size": "",
+      "color": "Stylish Colors",
+      "notes": "Stocking Stuffer",
+      "purchased": false
+    },
+    {
+      "id": "8c94",
+      "name": "Fabric Shaver and Lint Remover",
+      "brand": "Amazon",
+      "image": "https://m.media-amazon.com/images/I/71Rjssfr4wL._AC_SX425_.jpg",
+      "url": "https://www.amazon.com/BEAUTURAL-Defuzzer-2-Speeds-Replaceable-Stainless/dp/B01NAQD0KD/ref=pd_ci_mcx_mh_mcx_views_0_image?pd_rd_w=WGN39&content-id=amzn1.sym.bb21fc54-1dd8-448e-92bb-2ddce187f4ac%3Aamzn1.symc.40e6a10e-cbc4-4fa5-81e3-4435ff64d03b&pf_rd_p=bb21fc54-1dd8-448e-92bb-2ddce187f4ac&pf_rd_r=H485JWA2AGE2S1XSCB7N&pd_rd_wg=8FSXG&pd_rd_r=bf747540-a270-4de0-b1e3-7a61153c5ce1&pd_rd_i=B01NAQD0KD&tag=myregistrycom-20&th=1",
+      "price": 10.41,
+      "qty": 1,
+      "size": "Standard",
+      "color": "Gray",
+      "notes": "Stocking Stuffer",
+      "purchased": false
+    },
+    {
+      "id": "6720",
+      "name": "The Super Puff™ Vest - Hi-Gloss",
+      "brand": "Aritzia",
+      "image": "https://assets.aritzia.com/image/upload/w_1200/f24_a05_117974_1564_off_a",
+      "url": "https://www.aritzia.com/us/en/product/the-super-puff%E2%84%A2-vest/117974004.html?dwvar_117974_color=1564_2",
+      "price": 180,
+      "qty": 1,
+      "size": "XS",
+      "color": "Birch",
+      "notes": "",
+      "purchased": false
     }
   ]
 }
