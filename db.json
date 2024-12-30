@@ -129,6 +129,19 @@
       "color": "Birch",
       "notes": "",
       "purchased": false
+    },
+    {
+      "id": "faf6",
+      "name": "Lizabelle Black Leather Booties",
+      "brand": "Steve Madden",
+      "image": "https://www.stevemadden.com/cdn/shop/files/STEVEMADDEN_SHOES_LIZABELLE_BLACK-LEATHER_01.jpg?v=1715810349&width=853",
+      "url": "https://www.stevemadden.com/collections/womens-booties/products/lizabelle-black-leather",
+      "price": 149.95,
+      "qty": 1,
+      "size": "8.5",
+      "color": "Black Leather",
+      "notes": "",
+      "purchased": false
     }
   ]
 }

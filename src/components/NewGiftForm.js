@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useOutletContext } from "react-router-dom"
+import { useOutletContext, useNavigate } from "react-router-dom"
 
 const blankGiftForm = {
     name: "",
@@ -17,6 +17,7 @@ const blankGiftForm = {
 function NewGiftForm(){
     const { onAddNewGift } = useOutletContext()
     const [newGiftForm, setNewGiftForm] = useState(blankGiftForm)
+    const navigate = useNavigate()
 
     function handleSubmit(e){
         e.preventDefault()
@@ -32,6 +33,7 @@ function NewGiftForm(){
         .then(newGiftData=>{
             onAddNewGift(newGiftData)
             setNewGiftForm(blankGiftForm)
+            navigate("/gifts")
         })
     }
 
