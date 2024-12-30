@@ -1,0 +1,67 @@
+/* General container styling */
+.home-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    background: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Hero section styling */
+  .hero {
+    margin-bottom: 30px;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    color: #fff; /* White text for visibility */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #000; /* Optional shadow for extra pop */
+    background-color: rgba(211, 47, 47, 0.85); /* Festive red with slight transparency */
+    padding: 10px 20px; /* Adds spacing around the text */
+    border-radius: 8px; /* Rounded corners for a polished look */
+    display: inline-block; /* Ensures the background wraps only around the text */
+  }
+  
+  .hero-image {
+    width: 70%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Description section */
+  .description {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+  }
+  
+  .description p {
+    margin-bottom: 15px;
+  }
+  
+  .description strong {
+    color: #388e3c;
+  }
+  
+  /* Festive flair */
+  .home-container {
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Festive subtle texture */
+    background-color: #fefefe;
+  }
+  
+  .hero h1 {
+    background: linear-gradient(to right, #d32f2f, #388e3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .description {
+    background-color: #fdfaf3;
+    border: 1px solid #ece2ce;
+  }
+  
