@@ -3,6 +3,10 @@
 function Gift({ gift }){
     const {id, name, url, image, brand, price, size, color, qty, purchased, notes} = gift
 
+    function handleBuyNow(){
+        window.open(url, "_blank")
+    }
+
     return (
         <div className="gift-card">
             <img src={image} alt={name} className="gift-image" />
@@ -16,9 +20,9 @@ function Gift({ gift }){
                 </div>
             </div>
             {!purchased ?             
-                <button className="buy-button">Buy Now</button> :
+                <button className="buy-button" onClick={handleBuyNow}>Buy Now</button> :
                 <button className="purchased-button">Purchased</button>
-            }     
+            }
             </div>
     )
 }
