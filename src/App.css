@@ -265,3 +265,14 @@
     max-width: 250px;
   }
 }
+
+/* Redirect Page */
+.redirect-message {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px dashed #e74c3c; /* Red dashed border */
+  background-color: #fcecec; /* Light red background */
+  text-align: center;
+  color: #e74c3c; /* Red text */
+  border-radius: 10px;
+}

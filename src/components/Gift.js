@@ -1,10 +1,20 @@
-
+import { useState } from "react"
+import RedirectPage from "./RedirectPage"
 
 function Gift({ gift }){
     const {id, name, url, image, brand, price, size, color, qty, purchased, notes} = gift
+    const [showRedirect, setShowRedirect] = useState(false)
 
     function handleBuyNow(){
-        window.open(url, "_blank")
+        setShowRedirect(true)
+        setTimeout(()=>{
+            window.open(url, "_blank")
+            setShowRedirect(false)
+        }, 10000)
+    }
+
+    if (showRedirect){
+        <RedirectPage/>
     }
 
     return (
