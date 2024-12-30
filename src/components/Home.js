@@ -26,8 +26,10 @@ function Home() {
         </p>
         <p>
           No need to worry about the <strong>Add New Gift</strong> tab—this is
-          for me to add new gift ideas to my wishlist. Excited to celebrate with
-          everyone!
+          for me to add new gift ideas to my wishlist.
+        </p>
+        <p>
+          ~ Excited to celebrate with everyone! ~
         </p>
       </section>
     </main>

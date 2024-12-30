@@ -14,14 +14,14 @@
   
   .hero h1 {
     font-size: 2rem;
-    color: #fff; /* White text for visibility */
+    color: #fff;
     font-weight: bold;
     margin-bottom: 20px;
-    text-shadow: 1px 1px #000; /* Optional shadow for extra pop */
-    background-color: rgba(211, 47, 47, 0.85); /* Festive red with slight transparency */
-    padding: 10px 20px; /* Adds spacing around the text */
-    border-radius: 8px; /* Rounded corners for a polished look */
-    display: inline-block; /* Ensures the background wraps only around the text */
+    text-shadow: 1px 1px #000; 
+    background-color: rgba(211, 47, 47, 0.85);
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    display: inline-block; 
   }
   
   .hero-image {
@@ -46,12 +46,6 @@
   
   .description strong {
     color: #388e3c;
-  }
-  
-  /* Festive flair */
-  .home-container {
-    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Festive subtle texture */
-    background-color: #fefefe;
   }
   
   .hero h1 {
