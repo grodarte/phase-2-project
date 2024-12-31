@@ -4,7 +4,11 @@ import Gift from "./Gift"
 function Gifts(){
     const { gifts } = useOutletContext()
 
-    const giftElements = gifts.map(gift=><Gift key={gift.id} gift={gift}/>)
+    function handleMarkAsPurchased(id){
+        
+    }
+
+    const giftElements = gifts.map(gift=><Gift key={gift.id} gift={gift} onMarkAsPuchased={handleMarkAsPurchased}/>)
 
     return (
         <main>

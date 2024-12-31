@@ -276,3 +276,24 @@
   color: #e74c3c; /* Red text */
   border-radius: 10px;
 }
+
+/*Purchased Button*/
+.mark-purchased-button {
+  background-color: #a6f5cd;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mark-purchased-button:hover:not(:disabled) {
+  background-color: #86caa8; /* Slightly darker on hover */
+}
+
+.mark-purchased-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 
-function Gift({ gift }){
+function Gift({ gift, OnMarkAsPurchased }){
     const {id, name, url, image, brand, price, size, color, qty, purchased, notes} = gift
     const navigate = useNavigate()
 
@@ -24,10 +24,10 @@ function Gift({ gift }){
                     <p>Desired: {qty}</p>
                 </div>
             </div>
-            {!purchased ?             
-                <button className="buy-button" onClick={handleBuyNow}>Buy Now</button> :
-                <button className="purchased-button">Purchased</button>
-            }
+            {!purchased && <button className="buy-button" disabled={purchased} onClick={handleBuyNow}>Buy Now</button>}
+            <button className="mark-purchased-button" onClick={()=>OnMarkAsPurchased(id)}>
+                {purchased ? "Already Purchased" : "I already bought this gift"}
+            </button>
         </div>
     )
 }
