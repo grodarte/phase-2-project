@@ -1,20 +1,15 @@
-import { useState } from "react"
-import RedirectPage from "./RedirectPage"
+import { useNavigate } from "react-router-dom"
 
 function Gift({ gift }){
     const {id, name, url, image, brand, price, size, color, qty, purchased, notes} = gift
-    const [showRedirect, setShowRedirect] = useState(false)
+    const navigate = useNavigate()
 
     function handleBuyNow(){
-        setShowRedirect(true)
+        navigate("/redirecting")
         setTimeout(()=>{
             window.open(url, "_blank")
-            setShowRedirect(false)
+            navigate("/gifts")
         }, 10000)
-    }
-
-    if (showRedirect){
-        <RedirectPage/>
     }
 
     return (
@@ -25,15 +20,15 @@ function Gift({ gift }){
                 <p className="gift-info">Size: {size} | Color: {color}</p>
                 <p className="gift-price">${price.toFixed(2)}</p>
                 <div className="gift-stats">
-                {notes ? <p>Notes: {notes}</p> : null}
-                <p>Desired: {qty}</p>
+                    {notes ? <p>Notes: {notes}</p> : null}
+                    <p>Desired: {qty}</p>
                 </div>
             </div>
             {!purchased ?             
                 <button className="buy-button" onClick={handleBuyNow}>Buy Now</button> :
                 <button className="purchased-button">Purchased</button>
             }
-            </div>
+        </div>
     )
 }
 

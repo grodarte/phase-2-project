@@ -3,6 +3,7 @@ import ErrorPage from "./components/ErrorPage"
 import Home from "./components/Home"
 import Gifts from "./components/Gifts"
 import NewGiftForm from "./components/NewGiftForm"
+import RedirectPage from "./components/RedirectPage";
 
 const routes = [
     {
@@ -24,6 +25,10 @@ const routes = [
             }
         ]
 
+    },
+    {
+        path: "/redirecting",
+        element: <RedirectPage/>
     }
 ]
 

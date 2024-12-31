@@ -1,0 +1,29 @@
+.redirect-message {
+    background-color: #d4f7d4; /* Light green */
+    color: #155724; /* Dark green for text */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Prevent it from being too wide */
+    font-family: 'Arial', sans-serif;
+}
+
+.gift-icon {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}

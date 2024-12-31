@@ -1,5 +1,5 @@
 import './App.css';
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
 
