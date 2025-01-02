@@ -31,12 +31,14 @@ function App() {
     setGifts(updatedGiftList)
   }
 
+  const sortedGiftList = [...gifts].sort((a,b)=>a.purchased - b.purchased)
+
   return (
     <div className="App">
       <header>
           <NavBar/>
       </header>
-      <Outlet context={{gifts: gifts, onAddNewGift: handleAddNewGift, onUpdateGifts: handleUpdateGifts}}/>
+      <Outlet context={{gifts: sortedGiftList, onAddNewGift: handleAddNewGift, onUpdateGifts: handleUpdateGifts}}/>
     </div>
   );
 }
