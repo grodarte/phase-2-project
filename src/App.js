@@ -21,7 +21,14 @@ function App() {
   }
 
   function handleUpdateGifts(updatedGift){
-    console.log(updatedGift)
+    const updatedGiftList = gifts.map(gift=>{
+      if(gift.id === updatedGift.id){
+        return updatedGift
+      } else {
+        return gift
+      }
+    })
+    setGifts(updatedGiftList)
   }
 
   return (
