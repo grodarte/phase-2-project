@@ -33,12 +33,3 @@ function Gift({ gift, onMarkAsPurchased }){
 }
 
 export default Gift
-
-/*
-{!purchased ? 
-    <button className="buy-button" disabled={purchased} onClick={handleBuyNow}>Buy Now</button>
-    <button className="mark-purchased-button" disabled={purchased} onClick={()=>onMarkAsPurchased(id)}>I already bought this gift</button>
-    :
-    <button className="already-purchased-button" 
-}
-*/

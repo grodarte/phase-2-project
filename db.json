@@ -37,7 +37,7 @@
       "size": "8.5",
       "color": "Sea Salt with Sandstone",
       "notes": "",
-      "purchased": true
+      "purchased": false
     },
     {
       "id": "ebe2",
@@ -89,7 +89,7 @@
       "size": "8.5",
       "color": "Black with White and Mineral Red",
       "notes": "",
-      "purchased": true
+      "purchased": false
     },
     {
       "id": "1b0b",
@@ -102,7 +102,7 @@
       "size": "",
       "color": "Stylish Colors",
       "notes": "Stocking Stuffer",
-      "purchased": false
+      "purchased": true
     },
     {
       "id": "8c94",
@@ -128,7 +128,7 @@
       "size": "XS",
       "color": "Birch",
       "notes": "",
-      "purchased": true
+      "purchased": false
     },
     {
       "id": "faf6",
@@ -141,7 +141,7 @@
       "size": "8.5",
       "color": "Black Leather",
       "notes": "",
-      "purchased": true
+      "purchased": false
     }
   ]
 }

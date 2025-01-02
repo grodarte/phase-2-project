@@ -6,8 +6,6 @@ function Gifts(){
 
     function handleMarkAsPurchased(id){
         if(window.confirm(`Are you sure you want to update this item to purchased?`)){
-            console.log(`Item purchased`)
-            //PATCH request
             fetch(`http://localhost:3000/gifts/${id}`, {
                 method: "PATCH",
                 headers: {
@@ -17,7 +15,6 @@ function Gifts(){
             })
             .then(r=>r.json())
             .then(updatedGift=>onUpdateGifts(updatedGift))
-            //updates state using callback from App component
         } else {
             console.log(`Item not purchased`)
         }
