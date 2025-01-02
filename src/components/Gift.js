@@ -25,11 +25,20 @@ function Gift({ gift, onMarkAsPurchased }){
                 </div>
             </div>
             {!purchased && <button className="buy-button" disabled={purchased} onClick={handleBuyNow}>Buy Now</button>}
-            <button className="mark-purchased-button" onClick={()=>onMarkAsPurchased(id)}>
-                {purchased ? "Already Purchased" : "I already bought this gift"}
+            <button className="mark-purchased-button" disabled={purchased} onClick={()=>onMarkAsPurchased(id)}>
+                {purchased ? "Purchased" : "I already bought this gift"}
             </button>
         </div>
     )
 }
 
 export default Gift
+
+/*
+{!purchased ? 
+    <button className="buy-button" disabled={purchased} onClick={handleBuyNow}>Buy Now</button>
+    <button className="mark-purchased-button" disabled={purchased} onClick={()=>onMarkAsPurchased(id)}>I already bought this gift</button>
+    :
+    <button className="already-purchased-button" 
+}
+*/
