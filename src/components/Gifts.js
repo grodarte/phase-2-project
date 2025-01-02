@@ -2,7 +2,7 @@ import { useOutletContext } from "react-router-dom"
 import Gift from "./Gift"
 
 function Gifts(){
-    const { gifts } = useOutletContext()
+    const { gifts, onUpdateGifts } = useOutletContext()
 
     function handleMarkAsPurchased(id){
         if(window.confirm(`Are you sure you want to update this item to purchased?`)){
@@ -16,7 +16,7 @@ function Gifts(){
                 body: JSON.stringify({purchased: true})
             })
             .then(r=>r.json())
-            .then(updatedGift=>console.log(updatedGift))
+            .then(updatedGift=>onUpdateGifts(updatedGift))
             //updates state using callback from App component
         } else {
             console.log(`Item not purchased`)
