@@ -1,20 +1,3 @@
-/* .nav-link{
-    display: inline-block;
-    box-sizing: border-box;
-    width: 120px;
-    padding: 5px;
-    margin: 0 6px 6px;
-    background: rgb(113, 248, 136);
-    text-decoration: none;
-    text-align: center;
-    font-size: min(10vw, 15px) ;
-    color: rgb(1, 1, 1);
-}
-  
-.active {
-    color: red;
-} */
-
 /* General NavBar styling */
 nav {
     display: flex;

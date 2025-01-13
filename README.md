@@ -1,73 +1,49 @@
 # Phase 2 Project
--testing
 
-# Getting Started with Create React App
+# My Christmas Wishlist 🎄
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Tired of the chaos of Christmas shopping? My Christmas Wishlist is here to make gift-giving a breeze! With this app, you can easily view, organize, and manage gift ideas for the holiday season, ensuring a smooth shopping experience.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- 🎁 Wishlist Tab: View all gift ideas in one place, marked with their availability.
+- 📝 Add New Gift Tab: Quickly add new gift ideas to your wishlist.
+- ✅ Mark as Purchased: Keep track of purchased items to avoid duplicate buys.
+- 📱 User-Friendly Navigation: A sleek and simple interface with a modern design.
+- 🎄 Fun and festive home page to welcome you to the holiday spirit!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Why Use This App?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Skip the long lines and tackle football-like shopping scenes.
+- Easily navigate the app to view, add, or mark gifts as purchased.
+- Ensure no duplicates with an organized system.
+  
+## Home Page
 
-### `npm test`
+The home page greets users with a playful reminder of the stress of traditional shopping and a solution to simplify the process. It also tells users how to easily navigate the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Use
 
-### `npm run build`
+1. Navigate to the Wishlist tab to view all gift ideas.
+2. Use the Add New Gift tab to input ideas for your wishlist.
+3. Once a gift is purchased, mark it to keep the list updated.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology Stack
+- Frontend: React.js
+- Styling: CSS
+- Database: JSON Server for managing the wishlist data
+  
+## Future Improvements
+- Add user authentication for personalized wishlists.
+- Implement a share feature for friends and family.
+- Add reminders or notifications for gift deadlines.
+- Add an Out of Stock feature so users can mark gifts that are sold out.
+- Add a feature to update pricing as gifts go on and off sale.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the MIT License.

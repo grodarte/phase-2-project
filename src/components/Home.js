@@ -5,6 +5,7 @@ function Home() {
     <main className="home-container">
       <section className="hero">
         <h1>Christmas shopping doesn't need to look like this...</h1>
+        <br/>
         <img
           src="https://i.giphy.com/3oz8xOuOFqmBi7c3IY.webp"
           alt="Chaotic Christmas"

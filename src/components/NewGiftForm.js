@@ -64,7 +64,6 @@ function NewGiftForm(){
                 <button type="submit" className="form-button">Add Gift</button>
 
             </form>
-            {/* controlled form with submittal resulting in POST request / updating parent state / clearing form */}
         </main>
     )
 }

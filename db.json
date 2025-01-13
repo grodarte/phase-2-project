@@ -11,7 +11,7 @@
       "size": "8",
       "color": "Chestnut",
       "notes": "",
-      "purchased": false
+      "purchased": true
     },
     {
       "id": "24cd",
@@ -37,7 +37,7 @@
       "size": "8.5",
       "color": "Sea Salt with Sandstone",
       "notes": "",
-      "purchased": false
+      "purchased": true
     },
     {
       "id": "ebe2",
@@ -140,6 +140,19 @@
       "qty": 1,
       "size": "8.5",
       "color": "Black Leather",
+      "notes": "",
+      "purchased": false
+    },
+    {
+      "id": "1700",
+      "name": "RB4423D YEAR OF THE SNAKE EDITION",
+      "brand": "Ray-Ban",
+      "image": "https://images2.ray-ban.com//cdn-record-files-pi/78fe0774-c852-4651-a338-b1af009857b4/deb96688-968c-45e7-9ac1-b1af00a111c6/0RB4423D__68078G__P21__shad__qt.png?impolicy=RB_Product_clone&width=200&bgc=%23f2f2f2",
+      "url": "https://www.ray-ban.com/usa/sunglasses/rb4423d%20year%20of%20the%20snake%20edition-black/8056262413357",
+      "price": 166,
+      "qty": 1,
+      "size": "",
+      "color": "Polished Black",
       "notes": "",
       "purchased": false
     }
